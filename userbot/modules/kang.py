@@ -62,7 +62,7 @@ async def kang(args):
                     #User sent just custom emote, wants to push to default pack
                     emoji = splat[1]
 
-            packname = f"a{user.id}_by_{user.username}_{pack}"
+            packname = f"KangLang"
             response = urllib.request.urlopen(
                 urllib.request.Request(f'http://t.me/addstickers/{packname}')
             )
